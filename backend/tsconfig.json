@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "ES2022", // Para suportar funcionalidades modernas do JS
+		"module": "CommonJS", // Compatível com Node.js sem "type": "module"
+		"moduleResolution": "node", // Resolve módulos como o Node.js
+		"strict": true, // Ativa verificações de tipo rigorosas
+		"esModuleInterop": true, // Permite compatibilidade entre import/export
+		"forceConsistentCasingInFileNames": true, // Evita problemas de nomes de arquivos
+		"skipLibCheck": true, // Ignora verificação de tipos em dependências
+		"resolveJsonModule": true, // Permite importar arquivos JSON
+		"outDir": "./dist", // Pasta de saída dos arquivos transpilados
+		"sourceMap": true // Gera mapas para debugging
+	},
+	"include": ["src/**/*"], // Inclui todos os arquivos TypeScript na pasta src
+	"exclude": ["node_modules", "dist"] // Exclui node_modules e a saída
+}

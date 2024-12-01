@@ -1,0 +1,26 @@
+{
+	"name": "socket-servers",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+	},
+	"dependencies": {
+		"@types/express": "^5.0.0",
+		"@types/fs-extra": "^11.0.4",
+		"@types/node": "^18.11.18",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.1",
+		"fs-extra": "^11.2.0",
+		"sequelize": "^6.37.5",
+		"socket.io": "^4.8.1",
+		"sqlite3": "^5.1.7"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.2",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^5.6.2"
+	}
+}
